@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Rome</title>
+  <link rel="stylesheet" href="styles.css">
+  <script language="JavaScript1.1">
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+
+function slideshowlinks(){
+for (i=0;i<slideshowlinks.arguments.length;i++)
+slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+  <div class="header">
+    <script>
+      //set style for NS4 to ''
+      if (document.layers)
+        var ns4def=''
+    </script>
+
+    <h2 id="flyin" style="position:relative;left:-800px;font-style:italic" style=&{ns4def};>ROME!</h2>
+
+
+    <script language="JavaScript1.2">
+
+      /*
+      Fly-in Header script (credit must stay enclosed)
+      By javascriptkit.com
+      For this and over 400+ JavaScripts,
+      Visit http://www.javascriptkit.com
+      */
+
+
+      if (document.getElementById||document.all)
+        var crossheader=document.getElementById? document.getElementById("flyin").style : document.all.flyin.style
+
+      function animatein(){
+        if (parseInt(crossheader.left)<0)
+          crossheader.left=parseInt(crossheader.left)+20+"px"
+        else{
+          crossheader.left=0
+          crossheader.fontStyle="normal"
+          clearInterval(start)
+        }
+      }
+
+      if (document.getElementById||document.all)
+        start=setInterval("animatein()",50)
+
+
+    </script>
+
+    <p align="center">WELCOME!<br />
+  </div>
+</header>
+
+<section>
+  <div class="resume">
+    <p>Рим е столицата на Италия и област Лацио. Разположен е на реките Тибър и Аниене.
+      Бил е столица на Римската империя, най-могъщата, голяма и най-дълго просъществувалата
+      империя в класическата западна цивилизация. Ватиканът, анклав в Рим, е суверенна държава,
+      седалище на Римската католическа църква и папата.</p>
+
+    <p>Рим е най-големият град в Италия и един от най-големите европейски градове с площ от
+      1287,36 кв. км. Предградията му достигат до Тиренско море. В границите на града населението
+      е 2,8 милиона жители (към 31 декември 2019 г.); почти 4,4 милиона живеят в района на Рим.</p>
+
+    <p>Градът съществува от 2800 години, като е бил средище на Древен Рим, по-късно на Папската област,
+      Италианското кралство и Италианската република (съвременна Италия). Рим е известен още като la
+      Città Eterna (от итал. „Вечният град“) и l' Urbe (от латински: „Градът“).</p>
+  </div>
+
+  <div class="history">
+    <h2>Историята на Рим</h2>
+    <img src="coliseum.webp">
+    <p>Съгласно базирани на археологическите свидетелства хипотези градът се формира постепенно на основата
+      на скотовъдски селища в горната част на хълма Палатин. В същото време датираща от древността легенда
+      разказва, че градът е основан на 21 април 753 година пр.н.е. от братята Ромул и Рем, отгледани от
+      вълчица синове на весталката Рея Силвия и бога Марс. Друга легенда извежда произхода на
+      основателите на Рим от Еней, герой, избягал от победената Троя след Троянската война.</p>
+    <hr>
+    <p>В Античността, градската територия на Рим включва Седемте хълма по левия бряг на река Тибър.
+      Първоначално по шест от тях има селища на племената латини и сабини, а седмият,
+      Целий, е заселен с етруски. Около 6 век пр.н.е. низината между хълмовете е превърната в общ
+      пазарен площад – форум. На хълма Капитолий са построени крепост и храм на Юпитер, и той става
+      военен и религиозен център на града.</p>
+    <hr>
+    <p>Първоначалното селище се превръща в столица на Римското царство, в края на 6 век пр.н.е. –
+      на Римската република, а през 1 век пр.н.е. – на Римската империя. Успехът на Римската държава
+      се дължи на съчетание от военни завоевания, търговска хегемония и избирателно асимилиране на
+      съседните народи, най-вече на италийци, етруски и гърци. През първите столетия от съществуването
+      на Рим негов основен съперник са етруските, а през 386 година пр.н.е. градът за кратко е завзет от галите.
+      След тази криза Рим се стабилизира и през 3 век вече е доминираща сила на Апенинския полуостров, след като
+      подчинява сабините, етруските, самнитите и повечето гръцки колонии във Велика Гърция. В последвалите Пунически
+      войни Рим успява да се наложи и над средиземноморската империя на Картаген, като за пръв път установява контрол
+      над отвъдморски владения – Сицилия, Сардиния и Корсика, Испания.</p>
+    <hr>
+  </div>
+
+  <div class="landmark">
+    <ul>
+      <h1>Забележителностите</h1>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%B8%D0%B7%D0%B5%D0%B9"><h2>Колизеум</h2></a></li>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%92%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%BC%D1%83%D0%B7%D0%B5%D0%B8"><h2>Ватикански музеи</h2></a></li>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D1%8F%D0%BD%D0%BE%D0%B2%D0%B0_%D0%BA%D0%BE%D0%BB%D0%BE%D0%BD%D0%B0"><h2>Траянова колона</h2></a></li>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D1%82%D0%B5%D0%BE%D0%BD_(%D0%A0%D0%B8%D0%BC)"><h2>Пантеон</h2></a></li>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D1%8F_%D0%94%D0%BE%D1%80%D0%B8%D1%8F_%D0%9F%D0%B0%D0%BC%D1%84%D0%B8%D0%BB%D0%B8"><h2>Дворец Дория</h2></a></li>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D0%B4%D0%B8_%D0%A2%D1%80%D0%B5%D0%B2%D0%B8"><h2>Фонтан ди Треви</h2></a></li>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4_%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F"><h2>Площад Венеция</h2></a></li>
+      <li><a href="https://bg.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B2%D0%BE%D0%BD%D0%B0_(%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4)"><h2>Площад Навона</h2></a></li>
+
+    </ul>
+    <div class="image-script">
+      <a href="javascript:gotoshow()"><img src=7_Hügel_Roms.jpeg name="slide" border=0 width=300 height=375></a>
+      <script>
+        //configure the paths of the images, plus corresponding target links
+        slideshowimages("di-trevi.jpeg","vatican.jpeg" , "le-pantheon-coucher-soleil_xgaplus-1000x667.jpeg", "rome.jpeg", "italy-flag-drawn-19856627.jpeg")
+        slideshowlinks("http://food.epicurious.com/run/recipe/view?id=13285","http://food.epicurious.com/run/recipe/view?id=10092","http://food.epicurious.com/run/recipe/view?id=100975","http://food.epicurious.com/run/recipe/view?id=2876","http://food.epicurious.com/run/recipe/view?id=20010")
+
+        //configure the speed of the slideshow, in miliseconds
+        var slideshowspeed=2000
+
+        var whichlink=0
+        var whichimage=0
+        function slideit(){
+          if (!document.images)
+            return
+          document.images.slide.src=slideimages[whichimage].src
+          whichlink=whichimage
+          if (whichimage<slideimages.length-1)
+            whichimage++
+          else
+            whichimage=0
+          setTimeout("slideit()",slideshowspeed)
+        }
+        slideit()
+
+      </script>
+      <p align="center"><font face="arial" size="-2">This free script provided by</font><br>
+        <font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+          Kit</a></font></p>
+    </div>
+
+  </div>
+
+  <div class="table">
+    <h1>Население по години</h1>
+    <table>
+      <tr>
+        <th>Година</th>
+        <th>Население</th>
+      </tr>
+      <tr>
+        <th>1861г</th>
+        <th>194 500</th>
+      </tr>
+      <tr>
+        <th>1901г</th>
+        <th>518 917</th>
+      </tr>
+      <tr>
+        <th>1931г</th>
+        <th>930 926</th>
+      </tr>
+      <tr>
+        <th>1951г</th>
+        <th>1 651 754	</th>
+      </tr>
+      <tr>
+        <th>1971г</th>
+        <th>2 781 993</th>
+      </tr>
+      <tr>
+        <th>1981г</th>
+        <th>2 840 259</th>
+      </tr>
+      <tr>
+        <th>1991г</th>
+        <th>2 775 250</th>
+      </tr>
+      <tr>
+        <th>2011г</th>
+        <th>2 617 175</th>
+      </tr>
+      <tr>
+        <th>2017г</th>
+        <th>2 876 051</th>
+      </tr>
+    </table>
+  </div>
+
+
+
+</section>
+
+
+
+
+</body>
+</html>

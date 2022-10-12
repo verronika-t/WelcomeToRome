@@ -1,0 +1,114 @@
+body {
+  background-image: url("font.jpeg");
+  width: 800px;
+  margin-left: 300px;
+}
+
+
+header {
+  background-image: url("flag-800.png");
+  font-family: Papyrus, fantasy ;
+  text-align: center;
+  font-size: 35px;
+}
+
+/*RESUME STYLES*/
+
+
+.resume {
+  column-count: 3;
+  column-gap: 12px;
+  column-rule: 2px double red;
+  background: rgb(15,175,78);
+  background: linear-gradient(90deg, rgba(15,175,78,1) 0%, rgba(255,255,255,1) 46%, rgba(227,9,9,1) 100%);
+  opacity: 0.80;
+  font-family: Papyrus, fantasy ;
+  font-size: large;
+  color: black;
+  border: 3px groove black;
+  text-shadow: 2px 2px 3px green;
+}
+
+/*HISTORY STYLES*/
+
+.history {
+  border: 3px groove black;
+  text-shadow: 2px 2px 3px red;
+  background: rgb(15,175,78);
+  background: linear-gradient(220deg, rgba(15,175,78,1) 0%, rgba(255,255,255,1) 50%, rgba(227,9,9,1) 100%);
+}
+
+.history h2{
+  font-family: Papyrus, fantasy ;
+  text-align: center;
+  font-size: 35px;
+}
+
+.history img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.history p {
+  font-family: Papyrus, fantasy ;
+  font-size: large;
+  color: black;
+}
+
+/*LANDMARKS STYLES*/
+
+.landmark {
+  display: flex;
+  border: 3px groove black;
+  text-align: center;
+  text-shadow: 2px 2px 5px whitesmoke;
+}
+
+.landmark ul {
+  margin-right: 20px;
+}
+
+.landmark h1 {
+  font-family: Papyrus, fantasy ;
+  font-size: 30px;
+  color: red;
+}
+
+.image-script {
+  margin-top: 60px;
+  /*margin-left: 30px;*/
+}
+
+.landmark h2 {
+  font-family: Papyrus, fantasy ;
+  font-size: 20px;
+  color: #080300
+}
+
+.landmark h2:hover {
+  font-size: 30px;
+  color: green;
+}
+
+/*TABLE STYLES*/
+.table{
+  border: 3px groove black;
+  text-shadow: 2px 2px 5px green;
+  background: rgb(15,175,78);
+  background: linear-gradient(135deg, rgba(15,175,78,1) 0%, rgba(255,255,255,1) 49%, rgba(227,9,9,1) 100%);
+}
+
+.table h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+table tr th{
+border: 1px solid indianred;
+}
+
